@@ -128,8 +128,10 @@ Result_dir
 ```
 This dwiqc.json file can be used by an interactive QC tool with [dmriprep viewer](https://www.nipreps.org/dmriprep-viewer/#/), and this is their [repo](https://github.com/nipreps/dmriprep-viewer). You just need to put the directory to the dwiqc.json. 
 
+![dmriprep-viewer_DTI_FA](figures/dmriprep_viewer_DTI_FA.png)
 The benefit of using dmriprep viewer is that, you could view at each participant level: the motion and distortion correction at all volume at each time point, Brain mask computed on T1w and mapped to B0, even Color FA mapped on B0. 
 
+![dmriprep-viewer_rating](figures/dmriprep_viewer_rating.png)
 You could also rate the subject as pass/not pass for them to be included into the future analysis and download the ratings.
 
 There is an ![youtube walkthrough](https://www.youtube.com/watch?v=SQ0v-O-e5b8) that shows how to use this. 
