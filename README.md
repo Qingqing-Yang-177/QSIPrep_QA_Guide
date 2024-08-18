@@ -44,8 +44,8 @@ Before you start any further assesment, click on the **Error tab** and see if th
 
 QSIprep uses anatomical images (T1w or T2w) for robust brain extraction with SynthStrip from FreeSurfer. The boundaries between tissues are highlighted so it can be verified that the segmentation is precise and no gross errors. 
 
-- **Brain mask**: make sure the `red_line` is going around the brain and does not stray into the dura or cut off pieces of the brain, and voxels outside the brain were successfully excluded from the brain mask. 
-- **Segmentation**: make sure the `blue_line` follows the boundary between the white matter and the gray matter and isn't cutting off pieces of the white matter
+- **Brain mask**: make sure the <u>red line</u> is going around the brain and does not stray into the dura or cut off pieces of the brain, and voxels outside the brain were successfully excluded from the brain mask. 
+- **Segmentation**: make sure the <u>blue line</u> follows the boundary between the white matter and the gray matter and isn't cutting off pieces of the white matter
 
 ### Step 2, Denoising
 
