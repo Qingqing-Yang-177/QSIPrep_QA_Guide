@@ -50,9 +50,8 @@ QSIprep uses anatomical images (T1w or T2w) for robust brain extraction with Syn
 - **Segmentation**: make sure the `blue line` follows the boundary between the white matter and the gray matter and isn't cutting off pieces of the white matter
 
 ### T1 to MNI registration
-![t1_2_mni.svg](figures/sub-01_t1_2_mni.svg)
-
-<img src="https://raw.githubusercontent.com/Qingqing-Yang-177/QSIPrep_visual_qa_guide/main/figures/sub-01_t1_2_mni.svg" alt="Animated SVG">
+![t1_2_mni_moving.svg](figures/sub-01_t1_2_mni.svg)
+![t1_2_mni_fixed.png](figures/sub-01_t1_2_mni_fixed.png)
 
 
 QSIprep also normalizes the anatomical image, whichprovides a registration matrix used to normalize the co-registered dMRI image. 
