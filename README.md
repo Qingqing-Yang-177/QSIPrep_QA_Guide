@@ -145,4 +145,12 @@ Appreciate the [fmriprep_qa_guide](https://github.com/transatlantic-comppsych/fm
 
 Additionally, the exploration of QSIPrep was done during the summer school [NeuroHack Academy](https://neurohackademy.org/), thanks for the hosters at U Washington and other Uni-s. 
 
-I would also love to say thank you to my group members during neurohack, I had a incredible time working with them. **We developped [a beginner guide on diffusion image processing](https://github.com/NeuroHackademy2024/diffusion-mri), include a full guide on implementing QSIPrep**. Welcome everyone to take a look!
+I would also love to say thank you to my group members during neurohack, I had a incredible time working with them. **We developped [a beginner guide on diffusion image processing](https://github.com/NeuroHackademy2024/diffusion-mri), include a full guide on how to understand diffusion imaging, how to implement QSIPrep, etc**. Thank you: 
+- [Allesandra Iadipaolo](https://github.com/aiadipaolo)
+- [Gabriela Ojeda  Valencia](https://github.com/Ojvagab)
+- [Claudia Tato Fernández](https://github.com/TatoCl)
+- [Lya K. Paas](https://github.com/lilikapa)
+- [Elle Murata](https://github.com/emucsb)
+- [Lupita Yáñez Ramos](https://github.com/Lupitayanez)
+- [Luis A.](https://github.com/LuisA00).
+Welcome everyone to take a look at the [repo](https://github.com/NeuroHackademy2024/diffusion-mri)!
