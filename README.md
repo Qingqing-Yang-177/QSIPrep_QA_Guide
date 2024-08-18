@@ -126,7 +126,7 @@ Result_dir
 └── sub-01
 └── sub-01
 ```
-This dwiqc.json file can be used by an interactive QC tool with ![dmriprep viewer](https://www.nipreps.org/dmriprep-viewer/#/), and this is their ![repo](https://github.com/nipreps/dmriprep-viewer). You just need to put the directory to the dwiqc.json. 
+This dwiqc.json file can be used by an interactive QC tool with [dmriprep viewer](https://www.nipreps.org/dmriprep-viewer/#/), and this is their [repo](https://github.com/nipreps/dmriprep-viewer). You just need to put the directory to the dwiqc.json. 
 
 The benefit of using dmriprep viewer is that, you could view at each participant level: the motion and distortion correction at all volume at each time point, Brain mask computed on T1w and mapped to B0, even Color FA mapped on B0. 
 
