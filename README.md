@@ -140,12 +140,12 @@ You could also rate the subject as pass/not pass for them to be included into th
 
 There is an [youtube walkthrough](https://www.youtube.com/watch?v=SQ0v-O-e5b8) that shows how to use this. 
 
-## Acknowlegdement* 
+## Acknowlegdement
 Appreciate the [fmriprep_qa_guide](https://github.com/transatlantic-comppsych/fmriprep_qa_guide/tree/master) that really helped me during my exploration of fmriprep visual assessment report. This inspired me to write down this documentation of QSIPrep in case someone in the future have the same questions I met. The contributors are [Dylan Nielson](https://github.com/Shotgunosine), [Isil Bilgin](https://github.com/complexbrains), and [Chris Camp](https://github.com/chrisclaycamp).
 
 Additionally, the exploration of QSIPrep was done during the summer school [NeuroHack Academy](https://neurohackademy.org/), thanks for the hosters at U Washington and other Uni-s. 
 
-I would also love to say thank you to my group members during neurohack, I had a incredible time working with them. **We developped [a beginner guide on diffusion image processing](https://github.com/NeuroHackademy2024/diffusion-mri), include a full guide on how to understand diffusion imaging, how to implement QSIPrep, etc**. Thank you: 
+I would also love to say thank you to my group members during neurohack, I had an incredible time working with them. During the project time, **We developped [a beginner guide on diffusion image processing](https://github.com/NeuroHackademy2024/diffusion-mri), include a full guide on how to understand diffusion imaging, how to implement QSIPrep, etc**. Thank you: 
 - [Allesandra Iadipaolo](https://github.com/aiadipaolo)
 - [Gabriela Ojeda  Valencia](https://github.com/Ojvagab)
 - [Claudia Tato Fernández](https://github.com/TatoCl)
@@ -154,4 +154,4 @@ I would also love to say thank you to my group members during neurohack, I had a
 - [Lupita Yáñez Ramos](https://github.com/Lupitayanez)
 - [Luis A.](https://github.com/LuisA00)
 
-Welcome everyone to take a look at the [repo](https://github.com/NeuroHackademy2024/diffusion-mri)!
+Again, welcome everyone to take a look at the [diffusion-mri repo](https://github.com/NeuroHackademy2024/diffusion-mri)!
