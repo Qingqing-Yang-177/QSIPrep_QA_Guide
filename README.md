@@ -70,8 +70,8 @@ The noise image should not have anatomical features in it, such as ventricles.
 ![dwi_biascorr_denoised](figures/sub-01_ses-HBNsiteRU_acq-64dir_final_denoise_wf_biascorr.svg)
 
 The raw image and its intensity normalized afterimage are plotted. The bias is plotted as a contour map. 
-The `raw` image: low/high-b might have higher intensity near the coil, and lower intensity at the middle of the brain. 
-The `denoised` image should have a more normalized image across the slices.
+- The `raw` image: low/high-b might have higher intensity near the coil, and lower intensity at the middle of the brain.
+- The `denoised` image should have a more normalized image across the slices.
 
 ## Step 3, Diffusion
 ### b=0 Reference Image
@@ -79,7 +79,10 @@ The `denoised` image should have a more normalized image across the slices.
 ![b0_ref_after](figures/sub-01_ses-HBNsiteRU_acq-64dir_desc-resampled_b0ref_after.png)
 
 This plot shows the b=0 template and final mask output. 
-The T1 and signal intersection mask is the `blue line`, their xor is `red line`, and the entire mask is plotted in `cyan line`. 
+- The T1 and signal intersection mask is the `blue line`
+- their xor is `red line`
+- the entire mask is plotted in `cyan line`.
+   
 You should see a good alignment between the `before` and `after` image using the mask.
 
 ### DWI Sampling Scheme
@@ -134,6 +137,6 @@ The benefit of using dmriprep viewer is that, you could view at each participant
 ![dmriprep-viewer_rating](figures/dmriprep_viewer_rating.png)
 You could also rate the subject as pass/not pass for them to be included into the future analysis and download the ratings.
 
-There is an ![youtube walkthrough](https://www.youtube.com/watch?v=SQ0v-O-e5b8) that shows how to use this. 
+There is an [youtube walkthrough](https://www.youtube.com/watch?v=SQ0v-O-e5b8) that shows how to use this. 
 
 
