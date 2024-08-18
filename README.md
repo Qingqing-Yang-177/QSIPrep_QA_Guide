@@ -152,5 +152,6 @@ I would also love to say thank you to my group members during neurohack, I had a
 - [Lya K. Paas](https://github.com/lilikapa)
 - [Elle Murata](https://github.com/emucsb)
 - [Lupita Yáñez Ramos](https://github.com/Lupitayanez)
-- [Luis A.](https://github.com/LuisA00).
+- [Luis A.](https://github.com/LuisA00)
+
 Welcome everyone to take a look at the [repo](https://github.com/NeuroHackademy2024/diffusion-mri)!
