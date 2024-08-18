@@ -27,7 +27,9 @@ Result_dir
  └── sub-02
  ```
 
-Here the goal of this repo is to show **a figure by figure introduction of how to read the html visual quality assessment report**.
+Here the goal of this repo is to show **a figure by figure introduction of how to read the html visual quality assessment report**. 
+
+Note that the visual report elements included are just the default options, other optional results are pending. pls stay in tuned!
 
 The Full illustration is seperated into these parts:
 - step 0, error inspectation
@@ -40,12 +42,18 @@ Before you start any further assesment, click on the **Error tab** and see if th
 
 ### Step 1, Anatomical
 #### Brain mask and tissue segmentation of the T1w
-![brain mask and tissue segmentation](./figures/sub-01_seg_brainmask.svg)
+![brain_mask_tissue_seg.png](./figures/sub-01_seg_brainmask.svg)
 
 QSIprep uses anatomical images (T1w or T2w) for robust brain extraction with SynthStrip from FreeSurfer. The boundaries between tissues are highlighted so it can be verified that the segmentation is precise and no gross errors. 
 
 - **Brain mask**: make sure the `red line` is going around the brain and does not stray into the dura or cut off pieces of the brain, and voxels outside the brain were successfully excluded from the brain mask. 
 - **Segmentation**: make sure the `blue line` follows the boundary between the white matter and the gray matter and isn't cutting off pieces of the white matter
+
+#### T1 to MNI registration
+![t1_2_mni.svg](figures/sub-01_t1_2_mni.svg)
+
+QSIprep also normalizes the anatomical image, whichprovides a registration matrix used to normalize the co-registered dMRI image. 
+Ensuring that moving images (registered) match the orientation of fixed images (original T1w), and the anatomical structures are structurally well-aligned. 
 
 ### Step 2, Denoising
 
