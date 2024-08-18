@@ -58,5 +58,20 @@ QSIprep also normalizes the anatomical image, whichprovides a registration matri
 Ensuring that moving images (registered) match the orientation of fixed images (original T1w), and the anatomical structures are structurally well-aligned. 
 
 ## Step 2, Denoising
+### DWI denoising
+
+### DWI Bias correction
 
 ## Step 3, Diffusion
+### b=0 Reference Image
+
+### DWI Sampling Scheme
+![Q-space sampling scheme](figures/sub-01_ses-HBNsiteRU_acq-64dir_sampling_scheme.gif)
+
+### Susceptibility distortion correction (TOPUP)
+### b=0 to anatomical reference registration
+![b0 to anat coreg_fixed](figures/sub-01_ses-HBNsiteRU_acq-64dir_coreg_fixed.png)
+![b0 to anat coreg_moving](figures/sub-01_ses-HBNsiteRU_acq-64dir_coreg.svg)
+
+### DWI Summary
+![dwi_sum](figures/sub-01_ses-HBNsiteRU_acq-64dir_carpetplot.svg)
