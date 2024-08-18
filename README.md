@@ -51,7 +51,8 @@ QSIprep uses anatomical images (T1w or T2w) for robust brain extraction with Syn
 
 #### T1 to MNI registration
 ![t1_2_mni.svg](figures/sub-01_t1_2_mni.svg)
-<img src="https://github.com/Qingqing-Yang-177/QSIPrep_visual_qa_guide/blob/main/figures/sub-01_t1_2_mni.svg" alt="Animated SVG">
+
+<img src="https://raw.githubusercontent.com/Qingqing-Yang-177/QSIPrep_visual_qa_guide/main/figures/sub-01_t1_2_mni.svg" alt="Animated SVG">
 
 
 QSIprep also normalizes the anatomical image, whichprovides a registration matrix used to normalize the co-registered dMRI image. 
