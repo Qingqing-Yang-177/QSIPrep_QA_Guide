@@ -27,7 +27,12 @@ Result_dir
  └── sub-02
  ```
 
-**Here the goal of this repo is to introduce the figure by figure details of how to read the html visual quality assessment report.**
+Here the goal of this repo is to show **a figure by figure introduction of how to read the html visual quality assessment report**.
+
+The Full illustration is seperated into these parts:
+- step0
+- step1
+- step2
 
 ### Step 0, error inspectation
 Before you start any further assesment, click on the **Error tab** and see if there is any error reported and it says "No errors to report!"
