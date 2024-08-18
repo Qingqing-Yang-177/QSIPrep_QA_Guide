@@ -10,7 +10,7 @@ Shortly, qsiprep configures pipelines for processing diffusion-weighted MRI (dMR
 - A novel motion correction algorithm that works on DSI and random q-space sampling schemes
 
 The output of preprocessing from QSIPrep is structured as:
-...
+```
 Result_dir
 ├── dataset_description.json
 ├── dwiqc.json 
@@ -25,7 +25,7 @@ Result_dir
      │   └── anat
      │   └── dwi
  └── sub-02
- ...
+ ```
 
 **Here the goal of this repo is to introduce the figure by figure details of how to read the html visual quality assessment report.**
 
