@@ -37,11 +37,11 @@ The Full illustration is seperated into these parts:
 - step 2, Denosing
 - step 3, Diffusion Processing
 
-### Step 0, error inspectation
+## Step 0, error inspectation
 Before you start any further assesment, click on the **Error tab** and see if there is any error reported and it says "No errors to report!"
 
-### Step 1, Anatomical
-#### Brain mask and tissue segmentation of the T1w
+## Step 1, Anatomical
+### Brain mask and tissue segmentation of the T1w
 ![brain_mask_tissue_seg.png](./figures/sub-01_seg_brainmask.svg)
 
 QSIprep uses anatomical images (T1w or T2w) for robust brain extraction with SynthStrip from FreeSurfer. The boundaries between tissues are highlighted so it can be verified that the segmentation is precise and no gross errors. 
@@ -49,7 +49,7 @@ QSIprep uses anatomical images (T1w or T2w) for robust brain extraction with Syn
 - **Brain mask**: make sure the `red line` is going around the brain and does not stray into the dura or cut off pieces of the brain, and voxels outside the brain were successfully excluded from the brain mask. 
 - **Segmentation**: make sure the `blue line` follows the boundary between the white matter and the gray matter and isn't cutting off pieces of the white matter
 
-#### T1 to MNI registration
+### T1 to MNI registration
 ![t1_2_mni.svg](figures/sub-01_t1_2_mni.svg)
 
 <img src="https://raw.githubusercontent.com/Qingqing-Yang-177/QSIPrep_visual_qa_guide/main/figures/sub-01_t1_2_mni.svg" alt="Animated SVG">
@@ -58,6 +58,6 @@ QSIprep uses anatomical images (T1w or T2w) for robust brain extraction with Syn
 QSIprep also normalizes the anatomical image, whichprovides a registration matrix used to normalize the co-registered dMRI image. 
 Ensuring that moving images (registered) match the orientation of fixed images (original T1w), and the anatomical structures are structurally well-aligned. 
 
-### Step 2, Denoising
+## Step 2, Denoising
 
-### Step 3, Diffusion
+## Step 3, Diffusion
