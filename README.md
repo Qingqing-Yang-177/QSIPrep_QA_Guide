@@ -30,14 +30,17 @@ Result_dir
 Here the goal of this repo is to show **a figure by figure introduction of how to read the html visual quality assessment report**.
 
 The Full illustration is seperated into these parts:
-- step0
-- step1
-- step2
+- step 0, error inspectation
+- step 1, Anatomical Processing
+- step 2, Denosing
+- step 3, Diffusion Processing
 
 ### Step 0, error inspectation
 Before you start any further assesment, click on the **Error tab** and see if there is any error reported and it says "No errors to report!"
 
 ### Step 1, Anatomical
+#### Brain mask and tissue segmentation of the T1w
+
 
 ### Step 2, Denoising
 
